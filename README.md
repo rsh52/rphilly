@@ -20,3 +20,5 @@ You can install the development version of `rphilly` from
 # install.packages("devtools")
 devtools::install_github("rsh52/rphilly")
 ```
+
+> This package is still in development.
