@@ -23,7 +23,7 @@ devtools::install_github("rsh52/rphilly")
 
 > This package is still in development.
 
-## `rphilly`: COVID-19
+## `rphilly`: COVID-19 Function Family
 
 The following functions are available for COVID-19 data extraction:
 
