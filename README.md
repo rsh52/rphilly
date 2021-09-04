@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/rsh52/rphilly/workflows/R-CMD-check/badge.svg)](https://github.com/rsh52/rphilly/actions)
+[![Codecov test
+coverage](https://codecov.io/gh/rsh52/rphilly/branch/master/graph/badge.svg)](https://codecov.io/gh/rsh52/rphilly?branch=master)
 <!-- badges: end -->
 
 The goal of `rphilly` is to provide convenient helper functions and
@@ -23,7 +25,7 @@ devtools::install_github("rsh52/rphilly")
 
 > This package is still in development.
 
-## `rphilly`: COVID-19 Function Family
+## `rphilly`: COVID-19
 
 The following functions are available for COVID-19 data extraction:
 
