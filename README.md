@@ -12,9 +12,18 @@ coverage](https://codecov.io/gh/rsh52/rphilly/branch/master/graph/badge.svg)](ht
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
+``` r
+knitr::include_graphics("img/rphilly.png")
+```
+
+<img src="img/rphilly.png" width="250px" />
+
 The goal of `rphilly` is to provide convenient helper functions and
 pre-processed datasets from
-[OpenDataPhilly.org](https://www.opendataphilly.org/).
+[OpenDataPhilly.org](https://www.opendataphilly.org/). This package is
+in no way responsible for the actual recording, updating, or contents of
+the raw datasets. (It also has no relation to the NHL, but we do respect
+our favorite orange jawn)
 
 ## Installation
 
