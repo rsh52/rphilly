@@ -15,6 +15,7 @@ data from OpenDataPhilly.org which provides .csv files taken from a CARTO SQL da
 Note that this extraction provides only aggregate summation of data from the start of recording to the ETL \code{TimeStamp}.
 }
 \references{
-COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
-COVID Deaths: \url{https://www.opendataphilly.org/dataset/covid-deaths}
+- COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
+
+- COVID Deaths: \url{https://www.opendataphilly.org/dataset/covid-deaths}
 }

@@ -11,8 +11,9 @@
 #' @importFrom dplyr mutate select case_when rename transmute summarise group_by
 #' @export
 #' @references
-#' COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
-#' COVID Deaths: \url{https://www.opendataphilly.org/dataset/covid-deaths}
+#'
+#' - COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
+#' - COVID Deaths: \url{https://www.opendataphilly.org/dataset/covid-deaths}
 
 covid_gender <- function(){
 

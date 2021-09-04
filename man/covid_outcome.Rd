@@ -15,5 +15,5 @@ data from OpenDataPhilly.org which provides .csv files taken from a CARTO SQL da
 Note that this extraction provides only a sum total since the start of recording and not a summary over time.
 }
 \references{
-COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
+- COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
 }

@@ -11,7 +11,7 @@
 #' @importFrom dplyr mutate select case_when rename
 #' @export
 #' @references
-#' COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
+#' - COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
 
 covid_outcome <- function() {
 

@@ -13,6 +13,7 @@ data from OpenDataPhilly.org which provides .csv files taken from a CARTO SQL da
 \code{covid_date} pulls test result and date data from the COVID Tests and Cases registry as well as the COVID Deaths registry and presents the output in a pre-processed, tidy dataset.
 }
 \references{
-COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
-COVID Deaths: \url{https://www.opendataphilly.org/dataset/covid-deaths}
+- COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
+
+- COVID Deaths: \url{https://www.opendataphilly.org/dataset/covid-deaths}
 }
