@@ -5,8 +5,6 @@
 #'
 #' \code{covid_date} pulls test result and date data from the COVID Tests and Cases registry as well as the COVID Deaths registry and presents the output in a pre-processed, tidy dataset.
 #'
-#' Note that this extraction provides only a sum total since the start of recording and not a summary over time.
-#'
 #' @importFrom readr read_csv
 #' @importFrom dplyr mutate select case_when rename
 #' @export

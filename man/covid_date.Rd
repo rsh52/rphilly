@@ -11,8 +11,6 @@ The \code{covid_*} family of functions pull COVID-19 tracking
 data from OpenDataPhilly.org which provides .csv files taken from a CARTO SQL database API.
 
 \code{covid_date} pulls test result and date data from the COVID Tests and Cases registry as well as the COVID Deaths registry and presents the output in a pre-processed, tidy dataset.
-
-Note that this extraction provides only a sum total since the start of recording and not a summary over time.
 }
 \references{
 COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
