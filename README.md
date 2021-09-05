@@ -46,4 +46,6 @@ datasets](https://www.opendataphilly.org/organization/city-of-philadelphia?q=cov
 -   `covid_age`
 -   `covid_date`
 -   `covid_gender`
+-   `covid_race`
+-   `covid_race_died`
 -   `covid_outcome`

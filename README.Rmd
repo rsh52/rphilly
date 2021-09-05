@@ -47,4 +47,6 @@ The following functions are available for COVID-19 data extraction, with data su
 - `covid_age`
 - `covid_date`
 - `covid_gender`
+- `covid_race`
+- `covid_race_died`
 - `covid_outcome`
