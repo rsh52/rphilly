@@ -1,17 +1,19 @@
 #' Extract COVID-19 outcomes data from source
 #'
 #' @description The \code{covid_*} family of functions pull COVID-19 tracking
-#' data from OpenDataPhilly.org which provides .csv files taken from a CARTO SQL database API.
+#' data from data from \url{https://www.opendataphilly.org} which provides .csv files taken from a CARTO SQL database API.
 #'
 #' \code{covid_outcome} pulls data from the COVID Tests and Cases registry and presents the output in a pre-processed, tidy dataset.
 #'
-#' Note that this extraction provides only a sum total since the start of recording and not a summary over time.
+#' Note that this extraction provides only aggregate summation of data from the start of recording to the ETL \code{TimeStamp} which generally takes place at 15:00:00 UTC each day.
 #'
 #' @importFrom readr read_csv
 #' @importFrom dplyr mutate select case_when rename
 #' @export
 #' @references
 #' - COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
+#'
+#' - COVID Tests by Outcome: \url{https://www.opendataphilly.org/dataset/covid-cases/resource/cdf4a96d-3655-49bc-8490-2a73260a29a7}
 
 covid_outcome <- function() {
 

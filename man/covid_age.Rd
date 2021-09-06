@@ -8,14 +8,18 @@ covid_age()
 }
 \description{
 The \code{covid_*} family of functions pull COVID-19 tracking
-data from OpenDataPhilly.org which provides .csv files taken from a CARTO SQL database API.
+data from data from \url{https://www.opendataphilly.org} which provides .csv files taken from a CARTO SQL database API.
 
 \code{covid_age} pulls positive COVID-19 aggregate age breakdown data from the COVID Tests and Cases registry as well as the COVID Deaths registry and presents the output in a pre-processed, tidy dataset.
 
-Note that this extraction provides only aggregate summation of data from the start of recording to the ETL \code{TimeStamp}.
+Note that this extraction provides only aggregate summation of data from the start of recording to the ETL \code{TimeStamp} which generally takes place at 15:00:00 UTC each day.
 }
 \references{
 - COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
 
+- COVID Cases by Age: \url{https://www.opendataphilly.org/dataset/covid-cases/resource/86d7c7f5-b348-4ce2-bbb3-8d8e6f6dec98}
+
 - COVID Deaths: \url{https://www.opendataphilly.org/dataset/covid-deaths}
+
+- COVID Deaths by Age: \url{https://www.opendataphilly.org/dataset/covid-deaths/resource/33e68765-d07a-410a-9736-ac28fd587ce6}
 }

@@ -1,11 +1,11 @@
 #' Extract COVID-19 gender breakdown data from source
 #'
 #' @description The \code{covid_*} family of functions pull COVID-19 tracking
-#' data from OpenDataPhilly.org which provides .csv files taken from a CARTO SQL database API.
+#' data from data from \url{https://www.opendataphilly.org} which provides .csv files taken from a CARTO SQL database API.
 #'
 #' \code{covid_gender} pulls data from the COVID Tests and Cases registry and presents the output in a pre-processed, tidy dataset.
 #'
-#' Note that this extraction provides only a sum total since the start of recording and not a summary over time.
+#' Note that this extraction provides only aggregate summation of data from the start of recording to the ETL \code{TimeStamp} which generally takes place at 15:00:00 UTC each day.
 #'
 #' @importFrom readr read_csv
 #' @importFrom dplyr mutate select case_when rename transmute summarise group_by
@@ -13,7 +13,12 @@
 #' @references
 #'
 #' - COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
+#'
+#' - COVID Cases by Sex: \url{https://www.opendataphilly.org/dataset/covid-cases/resource/856a0639-334c-43c2-a53b-1b3f5611fbda}
+#'
 #' - COVID Deaths: \url{https://www.opendataphilly.org/dataset/covid-deaths}
+#'
+#' - COVID Deaths by Age: \url{https://www.opendataphilly.org/dataset/covid-deaths/resource/33e68765-d07a-410a-9736-ac28fd587ce6}
 
 covid_gender <- function(){
 

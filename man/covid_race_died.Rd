@@ -8,11 +8,11 @@ covid_race_died()
 }
 \description{
 The \code{covid_*} family of functions pull COVID-19 tracking
-data from OpenDataPhilly.org which provides .csv files taken from a CARTO SQL database API.
+data from data from \url{https://www.opendataphilly.org} which provides .csv files taken from a CARTO SQL database API.
 
 \code{covid_race_died} pulls data from the COVID Tests and Cases registry and presents the output in a pre-processed, tidy dataset. This data only includes patients who died, for patients who survived use \code{covid_race}.
 
-Note that this extraction provides only a sum total since the start of recording and not a summary over time.
+Note that this extraction provides only aggregate summation of data from the start of recording to the ETL \code{TimeStamp} which generally takes place at 15:00:00 UTC each day.
 }
 \references{
 - COVID Tests and Cases: \url{https://www.opendataphilly.org/dataset/covid-cases}
