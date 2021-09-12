@@ -18,7 +18,7 @@
 #' \strong{Note}: The author of this package determined it would be best to combine elements of the Deaths and Tests and Cases datasets for ease of use here.
 #'
 #' @importFrom readr read_csv
-#' @importFrom dplyr mutate select case_when
+#' @importFrom dplyr mutate select case_when rename transmute summarise group_by filter
 #' @export
 #' @references
 #' \href{https://www.opendataphilly.org/dataset/covid-hospitalizations}{COVID Tests and Cases}

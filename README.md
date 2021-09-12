@@ -43,10 +43,5 @@ The following functions are available for COVID-19 data extraction, with
 data supplied from [several
 datasets](https://www.opendataphilly.org/organization/city-of-philadelphia?q=covid&sort=score+desc%2C+metadata_modified+desc):
 
--   `covid_age`
--   `covid_date`
--   `covid_gender`
--   `covid_race`
--   `covid_race_died`
--   `covid_outcome`
--   `covid_zip`
+-   `covid_tests_cases`
+-   `covid_hospitalizations`
