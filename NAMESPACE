@@ -2,6 +2,8 @@
 
 export(covid_hospitalizations)
 export(covid_tests_cases)
+export(covid_vaccinations)
+importFrom(dplyr,"%>%")
 importFrom(dplyr,case_when)
 importFrom(dplyr,filter)
 importFrom(dplyr,group_by)
