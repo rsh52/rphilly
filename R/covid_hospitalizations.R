@@ -15,7 +15,7 @@
 #' \strong{Note}: For aggregate data, counts less than 6 patients are rounded up to 6 to preserve patient health information anonyimity.
 #'
 #' @importFrom readr read_csv
-#' @importFrom dplyr mutate select case_when rename filter
+#' @importFrom dplyr mutate select case_when rename filter %>%
 #' @export
 #' @references
 #' \href{https://www.opendataphilly.org/dataset/covid-hospitalizations}{COVID Hospitalizations}

@@ -18,7 +18,7 @@
 #' \strong{Note}: For aggregate data, counts less than 6 patients are rounded up to 6 to preserve patient health information anonyimity.
 #'
 #' @importFrom readr read_csv
-#' @importFrom dplyr mutate select case_when rename transmute summarise group_by filter
+#' @importFrom dplyr mutate select case_when rename transmute summarise group_by filter %>%
 #' @export
 #' @references
 #' \href{https://www.opendataphilly.org/dataset/covid-vaccinations}{COVID Vaccinations}
@@ -46,7 +46,10 @@ covid_vaccinations <- function(){
 
 
     race = read_csv("https://phl.carto.com/api/v2/sql?filename=covid_vaccines_by_race&format=csv&skipfields=cartodb_id,the_geom,the_geom_webmercator&q=SELECT%20*%20FROM%20covid_vaccines_by_race",
-                   show_col_types = FALSE, progress = FALSE),
+                   show_col_types = FALSE, progress = FALSE) %>%
+      rename(
+        race = racial_identity
+      ),
 
     sex = read_csv("https://phl.carto.com/api/v2/sql?filename=covid_vaccines_by_sex&format=csv&skipfields=cartodb_id,the_geom,the_geom_webmercator&q=SELECT%20*%20FROM%20covid_vaccines_by_sex",
                     show_col_types = FALSE, progress = FALSE) %>%
