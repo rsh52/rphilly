@@ -45,3 +45,4 @@ datasets](https://www.opendataphilly.org/organization/city-of-philadelphia?q=cov
 
 -   `covid_tests_cases`
 -   `covid_hospitalizations`
+-   `covid_vaccinations`

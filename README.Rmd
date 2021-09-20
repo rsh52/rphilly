@@ -46,3 +46,4 @@ The following functions are available for COVID-19 data extraction, with data su
 
 - `covid_tests_cases`
 - `covid_hospitalizations`
+- `covid_vaccinations`
